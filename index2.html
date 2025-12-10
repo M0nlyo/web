@@ -7,7 +7,7 @@
     <title>Document</title>
     <style>
         body {
-            background-image: url("背景2.JPG");
+            background-image: url("背景2.jpg");
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -32,17 +32,16 @@
 
         .tx {
             width: 100px;
+            border-radius: 50px;
             position: absolute;
             left: 50%;
-            top: 15%;
             transform: translateX(-50%);
-            border-radius: 50px;
         }
 
         .monly {
             position: absolute;
             left: 50%;
-            top: 25.8%;
+            top: 37.5%;
             transform: translateX(-50%);
             border-radius: 20px;
         }
@@ -64,7 +63,7 @@
             background-color: white;
             position: absolute;
             left: 50%;
-            top: 27%;
+            top: 42%;
             transform: translateX(-50%);
             border-radius: 20px;
         }
@@ -75,8 +74,18 @@
             display: flex;
             position: absolute;
             left: 50%;
-            top: 31%;
+            top: 60%;
             transform: translateX(-50%);
+        }
+
+        .box0 {
+            width: 600px;
+            height: 250px;
+            position: absolute;
+            left: 50%;
+            top: 13%;
+            transform: translateX(-50%);
+
         }
 
         .box1 {
@@ -165,21 +174,36 @@
             transform: translateX(-50%);
             border-radius: 20px;
         }
+
+        .xiaokuang {
+            width: 300px;
+            height: 300px;
+            background-color: #ffffff;
+            opacity: 0.5;
+            position: absolute;
+            left: 50%;
+            top: -15%;
+            transform: translateX(-50%);
+            border-radius: 20px;
+        }
     </style>
 </head>
 
 <body>
     <div class="bj"></div>
-    <div class="jj"></div>
     <input placeholder="搜索" class="input" name="text" type="text" />
-    <div>
-        <img src="tx2.jpg" alt="" class="tx">
-        <p class="monly">痛い、めちゃくちゃ痛い！</p>
-    </div>
-    <div class="gerentubiao">
-        <div><a href=""><img src="QQ.png" alt="" class="box1"></a></div>
-        <div><img src="X.png" alt="" class="box2"></div>
-        <div><img src="github.png" alt="" class="box3"></div>
+    <div class="box0">
+        <div class="xiaokuang"></div>
+        <div class="jj"></div>
+        <div class="kuang">
+            <img src="tx2.jpg" alt="" class="tx">
+            <p class="monly">痛い、めちゃくちゃ痛い！</p>
+        </div>
+        <div class="gerentubiao">
+            <div><a href=""><img src="QQ.png" alt="" class="box1"></a></div>
+            <div><img src="X.png" alt="" class="box2"></div>
+            <div><img src="github.png" alt="" class="box3"></div>
+        </div>
     </div>
     <div class="dianjitupian">
         <h2>点击图片进入文章</h2>
@@ -194,8 +218,8 @@
         </div>
     </div>
     <div class="wenzhang1">
-        <div><a href="https://www.baidu.com/index.php?tn=75144485_2_dg&ch=1"><img src="文章1.JPG" alt=""
-                    class="wz1"></a></div>
+        <div><a href="https://www.baidu.com/index.php?tn=75144485_2_dg&ch=1"><img src="文章1.JPG" alt="" class="wz1"></a>
+        </div>
         <div class="wz1and1">
             <h2>第一次更新</h2>
         </div>
@@ -205,7 +229,4 @@
     </div>
 </body>
 
-
 </html>
-
-
