@@ -4,7 +4,7 @@ body {
 }
 
 .假外框 {
-    height: 1000px;
+    height: 1300px;
     width: 600px;
     position: absolute;
     left: 50%;
@@ -14,7 +14,7 @@ body {
 
 .真外框 {
     background-color: rgb(242, 230, 216);
-    height: 1000px;
+    min-height: 1300px;
     width: 600px;
     position: absolute;
     left: 50%;
@@ -88,12 +88,14 @@ body {
 }
 
 .tong {
+    display: flex;
+    justify-content: center;
 }
 
 .图标 {
     width: 220px;
     height: 130px;
-    position: absolute;
+    position: relative;
     left: 50%;
     transform: translateX(-50%);
     top: 200px;
@@ -149,4 +151,89 @@ body {
     position: absolute;
     right: 5%;
     top: 70px;
+}
+
+.下箭头 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 470px;
+}
+
+.文章框 {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 550px;
+}
+
+.文章1 {
+    width: 350px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.文章1左 {
+    width: 130px;
+    height: 200px;
+    border-radius: 20px 0px 0px 20px;
+    position: relative;
+}
+
+.文章1右上 {
+    width: 210px;
+    height: 60px;
+    position: relative;
+    left: 10px;
+}
+
+.文章1右下 {
+    width: 210px;
+    height: 140px;
+    position: absolute;
+    top: 60px;
+    left: 140px;
+}
+
+.文章2 {
+    width: 350px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.文章2左 {
+    width: 130px;
+    height: 200px;
+    border-radius: 20px 0px 0px 20px;
+    position: relative;
+    background-size: contain;
+}
+
+.文章2右上 {
+    width: 210px;
+    height: 60px;
+    position: relative;
+    left: 10px;
+}
+
+.文章2右下 {
+    width: 210px;
+    height: 140px;
+    position: absolute;
+    top: 60px;
+    left: 140px;
 }
